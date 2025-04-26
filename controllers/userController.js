@@ -63,7 +63,7 @@ export function saveUser(req, res) {
         }
         if(req.user.role!="admin"){
             res.status(403).json({
-                message:"You are not autherized to create an admin accunt",
+                message:"You are not autherized to create an admin acc0unt",
             });
             return;
         }
